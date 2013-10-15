@@ -593,3 +593,195 @@ Tue Oct 15 16:11:14.968 [initandlisten] connection accepted from 127.0.0.1:54818
 Tue Oct 15 16:17:22.570 [initandlisten] connection accepted from 127.0.0.1:54822 #4 (4 connections now open)
 Tue Oct 15 16:17:25.643 [conn2] end connection 127.0.0.1:54817 (3 connections now open)
 Tue Oct 15 16:17:33.541 [conn4] end connection 127.0.0.1:54822 (2 connections now open)
+Tue Oct 15 16:46:16.098 [conn3] end connection 127.0.0.1:54818 (1 connection now open)
+Tue Oct 15 16:46:17.689 [conn1] end connection 127.0.0.1:54816 (0 connections now open)
+Tue Oct 15 16:46:34.413 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Tue Oct 15 16:46:34.413 [signalProcessingThread] now exiting
+Tue Oct 15 16:46:34.413 dbexit: 
+Tue Oct 15 16:46:34.413 [signalProcessingThread] shutdown: going to close listening sockets...
+Tue Oct 15 16:46:34.413 [signalProcessingThread] closing listening socket: 7
+Tue Oct 15 16:46:34.413 [signalProcessingThread] closing listening socket: 8
+Tue Oct 15 16:46:34.413 [signalProcessingThread] removing socket file: /tmp/mongodb-3333.sock
+Tue Oct 15 16:46:34.413 [signalProcessingThread] shutdown: going to flush diaglog...
+Tue Oct 15 16:46:34.413 [signalProcessingThread] shutdown: going to close sockets...
+Tue Oct 15 16:46:34.414 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Tue Oct 15 16:46:34.414 [signalProcessingThread] shutdown: closing all files...
+Tue Oct 15 16:46:34.414 [signalProcessingThread] closeAllFiles() finished
+Tue Oct 15 16:46:34.414 [signalProcessingThread] shutdown: removing fs lock...
+Tue Oct 15 16:46:34.414 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 16:50:30.195 [initandlisten] MongoDB starting : pid=15229 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb/ 32-bit host=aj
+Tue Oct 15 16:50:30.195 [initandlisten] 
+Tue Oct 15 16:50:30.195 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 16:50:30.195 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 16:50:30.195 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 16:50:30.195 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 16:50:30.195 [initandlisten] 
+Tue Oct 15 16:50:30.195 [initandlisten] db version v2.4.6
+Tue Oct 15 16:50:30.195 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 16:50:30.195 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 16:50:30.195 [initandlisten] allocator: system
+Tue Oct 15 16:50:30.195 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb/", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb/", port: 3333 }
+Tue Oct 15 16:50:30.297 [initandlisten] waiting for connections on port 3333
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 16:53:47.905 [initandlisten] MongoDB starting : pid=15300 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 16:53:47.905 [initandlisten] 
+Tue Oct 15 16:53:47.905 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 16:53:47.905 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 16:53:47.905 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 16:53:47.905 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 16:53:47.905 [initandlisten] 
+Tue Oct 15 16:53:47.905 [initandlisten] db version v2.4.6
+Tue Oct 15 16:53:47.905 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 16:53:47.905 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 16:53:47.905 [initandlisten] allocator: system
+Tue Oct 15 16:53:47.905 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 16:53:47.908 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/jhosan/knobas/data/db/mongodb/mongod.lock. Is a mongod instance already running?, terminating
+Tue Oct 15 16:53:47.908 dbexit: 
+Tue Oct 15 16:53:47.908 [initandlisten] shutdown: going to close listening sockets...
+Tue Oct 15 16:53:47.908 [initandlisten] shutdown: going to flush diaglog...
+Tue Oct 15 16:53:47.908 [initandlisten] shutdown: going to close sockets...
+Tue Oct 15 16:53:47.908 [initandlisten] shutdown: waiting for fs preallocator...
+Tue Oct 15 16:53:47.908 [initandlisten] shutdown: closing all files...
+Tue Oct 15 16:53:47.908 [initandlisten] closeAllFiles() finished
+Tue Oct 15 16:53:47.908 dbexit: really exiting now
+Tue Oct 15 16:54:12.624 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Tue Oct 15 16:54:12.624 [signalProcessingThread] now exiting
+Tue Oct 15 16:54:12.624 dbexit: 
+Tue Oct 15 16:54:12.624 [signalProcessingThread] shutdown: going to close listening sockets...
+Tue Oct 15 16:54:12.624 [signalProcessingThread] closing listening socket: 7
+Tue Oct 15 16:54:12.624 [signalProcessingThread] closing listening socket: 8
+Tue Oct 15 16:54:12.624 [signalProcessingThread] removing socket file: /tmp/mongodb-3333.sock
+Tue Oct 15 16:54:12.624 [signalProcessingThread] shutdown: going to flush diaglog...
+Tue Oct 15 16:54:12.624 [signalProcessingThread] shutdown: going to close sockets...
+Tue Oct 15 16:54:12.624 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Tue Oct 15 16:54:12.624 [signalProcessingThread] shutdown: closing all files...
+Tue Oct 15 16:54:12.624 [signalProcessingThread] closeAllFiles() finished
+Tue Oct 15 16:54:12.624 [signalProcessingThread] shutdown: removing fs lock...
+Tue Oct 15 16:54:12.624 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 16:56:49.382 [initandlisten] MongoDB starting : pid=15352 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 16:56:49.382 [initandlisten] 
+Tue Oct 15 16:56:49.382 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 16:56:49.390 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 16:56:49.390 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 16:56:49.390 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 16:56:49.390 [initandlisten] 
+Tue Oct 15 16:56:49.390 [initandlisten] db version v2.4.6
+Tue Oct 15 16:56:49.390 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 16:56:49.390 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 16:56:49.390 [initandlisten] allocator: system
+Tue Oct 15 16:56:49.390 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 16:56:49.482 [initandlisten] waiting for connections on port 3333
+Tue Oct 15 16:57:25.886 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Tue Oct 15 16:57:25.886 [signalProcessingThread] now exiting
+Tue Oct 15 16:57:25.886 dbexit: 
+Tue Oct 15 16:57:25.886 [signalProcessingThread] shutdown: going to close listening sockets...
+Tue Oct 15 16:57:25.886 [signalProcessingThread] closing listening socket: 7
+Tue Oct 15 16:57:25.886 [signalProcessingThread] closing listening socket: 8
+Tue Oct 15 16:57:25.887 [signalProcessingThread] removing socket file: /tmp/mongodb-3333.sock
+Tue Oct 15 16:57:25.887 [signalProcessingThread] shutdown: going to flush diaglog...
+Tue Oct 15 16:57:25.887 [signalProcessingThread] shutdown: going to close sockets...
+Tue Oct 15 16:57:25.887 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Tue Oct 15 16:57:25.887 [signalProcessingThread] shutdown: closing all files...
+Tue Oct 15 16:57:25.887 [signalProcessingThread] closeAllFiles() finished
+Tue Oct 15 16:57:25.887 [signalProcessingThread] shutdown: removing fs lock...
+Tue Oct 15 16:57:25.887 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 16:58:39.675 [initandlisten] MongoDB starting : pid=15412 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 16:58:39.675 [initandlisten] 
+Tue Oct 15 16:58:39.675 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 16:58:39.675 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 16:58:39.675 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 16:58:39.675 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 16:58:39.678 [initandlisten] 
+Tue Oct 15 16:58:39.678 [initandlisten] db version v2.4.6
+Tue Oct 15 16:58:39.678 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 16:58:39.678 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 16:58:39.678 [initandlisten] allocator: system
+Tue Oct 15 16:58:39.678 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 16:58:39.780 [initandlisten] waiting for connections on port 3333
+Tue Oct 15 16:58:40.833 [initandlisten] connection accepted from 127.0.0.1:54957 #1 (1 connection now open)
+Tue Oct 15 16:58:40.836 [initandlisten] connection accepted from 127.0.0.1:54958 #2 (2 connections now open)
+Tue Oct 15 16:58:40.848 [initandlisten] connection accepted from 127.0.0.1:54959 #3 (3 connections now open)
+Tue Oct 15 16:58:59.687 [initandlisten] connection accepted from 127.0.0.1:54960 #4 (4 connections now open)
+Tue Oct 15 16:58:59.693 [conn4] dropDatabase knobas starting
+Tue Oct 15 16:58:59.740 [conn4] dropDatabase knobas finished
+Tue Oct 15 16:58:59.748 [conn4] end connection 127.0.0.1:54960 (3 connections now open)
+Tue Oct 15 16:59:00.051 [initandlisten] connection accepted from 127.0.0.1:54961 #5 (4 connections now open)
+Tue Oct 15 16:59:00.055 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 16:59:00.055 [FileAllocator] creating directory /home/jhosan/knobas/data/db/mongodb/_tmp
+Tue Oct 15 16:59:00.631 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.501 secs
+Tue Oct 15 16:59:00.631 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 16:59:01.125 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.493 secs
+Tue Oct 15 16:59:01.127 [conn5] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 16:59:01.130 [conn5] build index done.  scanned 0 total records. 0.003 secs
+Tue Oct 15 16:59:01.130 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 16:59:01.139 [conn5] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1076056 reslen:37 1085ms
+Tue Oct 15 16:59:01.148 [conn5] end connection 127.0.0.1:54961 (3 connections now open)
+Tue Oct 15 16:59:01.592 [initandlisten] connection accepted from 127.0.0.1:54962 #6 (4 connections now open)
+Tue Oct 15 16:59:01.605 [conn6] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 16:59:01.606 [conn6] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 16:59:01.616 [conn6] end connection 127.0.0.1:54962 (3 connections now open)
+Tue Oct 15 16:59:02.356 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.225 secs
+Tue Oct 15 16:59:22.620 [initandlisten] connection accepted from 127.0.0.1:54963 #7 (4 connections now open)
+Tue Oct 15 16:59:31.360 [conn1] end connection 127.0.0.1:54957 (3 connections now open)
+Tue Oct 15 16:59:51.681 [conn7] end connection 127.0.0.1:54963 (2 connections now open)
+Tue Oct 15 17:02:54.704 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Tue Oct 15 17:02:54.704 [signalProcessingThread] now exiting
+Tue Oct 15 17:02:54.704 dbexit: 
+Tue Oct 15 17:02:54.704 [signalProcessingThread] shutdown: going to close listening sockets...
+Tue Oct 15 17:02:54.704 [signalProcessingThread] closing listening socket: 7
+Tue Oct 15 17:02:54.704 [signalProcessingThread] closing listening socket: 8
+Tue Oct 15 17:02:54.704 [signalProcessingThread] removing socket file: /tmp/mongodb-3333.sock
+Tue Oct 15 17:02:54.704 [signalProcessingThread] shutdown: going to flush diaglog...
+Tue Oct 15 17:02:54.704 [signalProcessingThread] shutdown: going to close sockets...
+Tue Oct 15 17:02:54.705 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Tue Oct 15 17:02:54.705 [signalProcessingThread] shutdown: closing all files...
+Tue Oct 15 17:02:54.705 [signalProcessingThread] closeAllFiles() finished
+Tue Oct 15 17:02:54.705 [signalProcessingThread] shutdown: removing fs lock...
+Tue Oct 15 17:02:54.705 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 17:04:39.416 [initandlisten] MongoDB starting : pid=15660 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 17:04:39.416 [initandlisten] 
+Tue Oct 15 17:04:39.416 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 17:04:39.416 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 17:04:39.416 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 17:04:39.416 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 17:04:39.416 [initandlisten] 
+Tue Oct 15 17:04:39.416 [initandlisten] db version v2.4.6
+Tue Oct 15 17:04:39.416 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 17:04:39.416 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 17:04:39.416 [initandlisten] allocator: system
+Tue Oct 15 17:04:39.416 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 17:04:39.522 [initandlisten] waiting for connections on port 3333
+Tue Oct 15 17:04:40.648 [initandlisten] connection accepted from 127.0.0.1:54970 #1 (1 connection now open)
+Tue Oct 15 17:04:40.655 [initandlisten] connection accepted from 127.0.0.1:54971 #2 (2 connections now open)
+Tue Oct 15 17:04:40.677 [initandlisten] connection accepted from 127.0.0.1:54972 #3 (3 connections now open)
+Tue Oct 15 17:05:28.078 [initandlisten] connection accepted from 127.0.0.1:54973 #4 (4 connections now open)
+Tue Oct 15 17:05:30.912 [conn1] end connection 127.0.0.1:54970 (3 connections now open)
+Tue Oct 15 17:06:11.718 [conn4] end connection 127.0.0.1:54973 (2 connections now open)
+Tue Oct 15 17:07:26.338 [initandlisten] connection accepted from 127.0.0.1:54974 #5 (3 connections now open)
+Tue Oct 15 17:07:36.364 [conn5] end connection 127.0.0.1:54974 (2 connections now open)
+Tue Oct 15 17:07:41.128 [initandlisten] connection accepted from 127.0.0.1:54975 #6 (3 connections now open)
+Tue Oct 15 17:07:51.157 [conn6] end connection 127.0.0.1:54975 (2 connections now open)

@@ -6,7 +6,7 @@ import os
 
 dbname="knobas"
 checkstr=str(datetime.datetime.now())
-filepath="/home/jhosan/knobas/monitoring/worker/test.txt"
+filepath="/home/jhosan/knobas/data/monitoring/test.txt"
 
 db=pymongo.Connection("127.0.0.1:3333")[dbname]
 db.worker_queue.insert({

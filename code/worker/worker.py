@@ -4,7 +4,7 @@ id=random.getrandbits(32)
 if len(sys.argv)>1:
   id=sys.argv[1] 
 
-def_path="/home/jhosan/knobas/"
+def_path="/home/jhosan/knobas/data/"
 log_path=def_path+"logs/worker."+id+".log"
 log_file=open(log_path,'a')
 log_file.write(str(datetime.datetime.now())+" worker "+id+" started.")
