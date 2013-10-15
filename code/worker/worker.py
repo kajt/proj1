@@ -11,16 +11,15 @@ from common import *
 def sigusr1_handler(signal,frame):
   while task_in_progress:
     time.sleep(0.2)
-  log_file.write(str(datetime.datetime.now())+" worker "+str(id)+" stopped by SIGUSR1\n")
-  log_file.close()
+  write_work_log(id,"worker_interrupted_sigusr1")
+  close_work_log(id)
   exit(0)
 
 def sigusr2_handler(signal,frame):
   if not task_in_progress:
     task=set_worker_task_interrupted_in_mongo(task)
-  log_file.write(str(datetime.datetime.now())+" worker "+str(id)+" stopped by SIGUSR2\n")
-  log_file.write("task that was in progress: "+str(task)+"\n")
-  log_file.close()
+  write_work_log(id,"worker_interrupted_sigusr2","task that was in progress: "+str(task))
+  close_work_log(id)
   exit(0)
 
 def task_monitoring_test(task):
@@ -42,18 +41,11 @@ if len(sys.argv)>1:
 else:
   id=random.getrandbits(32)
 
-######## TO BE REDEFINED LATER ########
-# log path
-def_path="/home/jhosan/knobas/data/"
-log_path=def_path+"logs/worker."+str(id)+".log"
-
-# writing start note 
-log_file=open(log_path,'a')
-log_file.write(str(datetime.datetime.now())+" worker "+str(id)+" started.")
+# writing to logs that worker started
+write_work_log(id,"worker_started")
 
 task_in_progress=False
 task=None
-
 while True:
   currtime=str(datetime.datetime.now())
   task_in_progress=True  
