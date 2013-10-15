@@ -1,4 +1,8 @@
 2013-09-01 19:42:37.245687 worker 1 started.2013-09-01 20:03:56.876246 worker 1 started.2013-09-01 20:04:17.664765 worker 1 stopped by SIGUSR1
 2013-09-01 20:19:35.345442 worker 1 started.2013-09-01 20:19:58.075557 worker 1 stopped by SIGUSR1
 2013-10-15 16:11:14.962140 worker 1 started.2013-10-15 16:58:40.847356 worker 1 started.2013-10-15 17:04:40.654548 worker 1 started.2013-10-15 17:14:00.497876 worker 1 stopped by SIGUSR1
-2013-10-15 17:35:23.617417 worker 1 started.2013-10-15 17:38:38.390989 worker 1 started.
+2013-10-15 17:35:23.617417 worker 1 started.2013-10-15 17:38:38.390989 worker 1 started.2013-10-15 17:40:56.538167 worker 1 started.2013-10-15 18:21:42.514761 worker 1 stopped by SIGUSR1
+2013-10-15 18:22:37.610195 worker 1 started.2013-10-15 18:23:28.793303 worker 1 stopped by SIGUSR1
+2013-10-15 18:24:34.541959 worker 1 started.2013-10-15 18:25:05.833651 worker 1 stopped by SIGUSR1
+2013-10-15 18:25:19.433256 worker 1 started.2013-10-15 18:38:27.746219 worker 1 stopped by SIGUSR1
+2013-10-15 19:16:58.633444 worker 1 started.2013-10-15 19:20:05.153934 worker 1 started.2013-10-15 19:21:10.072788 worker 1 started.2013-10-15 19:22:46.735508 worker 1 started.2013-10-15 19:25:07.618936 worker 1 started.

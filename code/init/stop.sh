@@ -53,4 +53,5 @@ then
     fi
   fi
 fi
+kill `cat $DIR_MEMC_PID`
 mongod --shutdown --dbpath "$DIR_MONGO_DATA" 
