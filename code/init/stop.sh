@@ -1,11 +1,11 @@
 #!/bin/bash
-DEF_DIR="/home/jhosan/knobas"
-for f in `ls -1 $DEF_DIR/pids/worker/*`
+source ./settings.sh
+for f in `ls -1 $DIR_WORKER_PID*`
 do
   kill -USR1 `cat $f`
   sleep 1
 done
-for f in `ls -1 $DEF_DIR/pids/worker/*`
+for f in `ls -1 $DIR_WORKER_PID*`
 do
   if ps -p `cat $f` > /dev/null
   then
@@ -16,9 +16,9 @@ do
     rm $f
   fi
 done
-if [ -f $DEF_DIR/pids/worker/worker.*.pid ]
+if [ -f $DIR_WORKER_PIDworker.*.pid ]
 then
-  for f in `ls -1 $DEF_DIR/pids/worker/*`
+  for f in `ls -1 $DIR_WORKER_PID*`
   do
     if ps -p `cat $f` > /dev/null
     then
@@ -28,10 +28,10 @@ then
       rm $f
     fi
   done
-  if [ -f $DEF_DIR/pids/worker/worker.*.pid ]
+  if [ -f $DIR_WORKER_PIDworker.*.pid ]
   then
     sleep 10
-    for f in `ls -1 $DEF_DIR/pids/worker/*`
+    for f in `ls -1 $DIR_WORKER_PID*`
     do
       if ps -p `cat $f` > /dev/null
       then
@@ -41,10 +41,10 @@ then
         echo "removing $f"
       fi
     done
-    if [ -f $DEF_DIR/pids/worker/worker.*.pid ]
+    if [ -f $DIR_WORKER_PIDworker.*.pid ]
     then
       sleep 10
-      for f in `ls -1 $DEF_DIR/pids/worker/*`
+      for f in `ls -1 $DIR_WORKER_PID*`
       do
         kill -9 `cat $f`
         rm $f
@@ -53,4 +53,4 @@ then
     fi
   fi
 fi
-mongod --shutdown --dbpath "$DEF_DIR/db/mongodb" 
+mongod --shutdown --dbpath "$DIR_MONGO_DATA" 
