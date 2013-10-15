@@ -1459,3 +1459,498 @@ Tue Oct 15 20:23:02.197 [signalProcessingThread] shutdown: closing all files...
 Tue Oct 15 20:23:02.197 [signalProcessingThread] closeAllFiles() finished
 Tue Oct 15 20:23:02.197 [signalProcessingThread] shutdown: removing fs lock...
 Tue Oct 15 20:23:02.197 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 21:09:14.664 [initandlisten] MongoDB starting : pid=19754 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 21:09:14.664 [initandlisten] 
+Tue Oct 15 21:09:14.664 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 21:09:14.664 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 21:09:14.664 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 21:09:14.664 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 21:09:14.664 [initandlisten] 
+Tue Oct 15 21:09:14.664 [initandlisten] db version v2.4.6
+Tue Oct 15 21:09:14.664 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 21:09:14.664 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 21:09:14.664 [initandlisten] allocator: system
+Tue Oct 15 21:09:14.664 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 21:09:14.944 [initandlisten] waiting for connections on port 3333
+Tue Oct 15 21:09:16.035 [initandlisten] connection accepted from 127.0.0.1:56340 #1 (1 connection now open)
+Tue Oct 15 21:09:16.046 [initandlisten] connection accepted from 127.0.0.1:56341 #2 (2 connections now open)
+Tue Oct 15 21:09:16.046 [initandlisten] connection accepted from 127.0.0.1:56342 #3 (3 connections now open)
+Tue Oct 15 21:10:00.626 [conn3] end connection 127.0.0.1:56342 (2 connections now open)
+Tue Oct 15 21:10:01.664 [conn1] end connection 127.0.0.1:56340 (1 connection now open)
+Tue Oct 15 21:10:02.677 [conn2] end connection 127.0.0.1:56341 (0 connections now open)
+Tue Oct 15 21:10:03.985 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Tue Oct 15 21:10:03.986 [signalProcessingThread] now exiting
+Tue Oct 15 21:10:03.986 dbexit: 
+Tue Oct 15 21:10:03.986 [signalProcessingThread] shutdown: going to close listening sockets...
+Tue Oct 15 21:10:03.986 [signalProcessingThread] closing listening socket: 7
+Tue Oct 15 21:10:03.986 [signalProcessingThread] closing listening socket: 8
+Tue Oct 15 21:10:03.986 [signalProcessingThread] removing socket file: /tmp/mongodb-3333.sock
+Tue Oct 15 21:10:03.986 [signalProcessingThread] shutdown: going to flush diaglog...
+Tue Oct 15 21:10:03.986 [signalProcessingThread] shutdown: going to close sockets...
+Tue Oct 15 21:10:03.986 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Tue Oct 15 21:10:03.986 [signalProcessingThread] shutdown: closing all files...
+Tue Oct 15 21:10:03.986 [signalProcessingThread] closeAllFiles() finished
+Tue Oct 15 21:10:03.986 [signalProcessingThread] shutdown: removing fs lock...
+Tue Oct 15 21:10:03.986 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 21:10:09.074 [initandlisten] MongoDB starting : pid=19826 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 21:10:09.074 [initandlisten] 
+Tue Oct 15 21:10:09.074 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 21:10:09.074 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 21:10:09.074 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 21:10:09.074 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 21:10:09.075 [initandlisten] 
+Tue Oct 15 21:10:09.075 [initandlisten] db version v2.4.6
+Tue Oct 15 21:10:09.075 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 21:10:09.075 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 21:10:09.075 [initandlisten] allocator: system
+Tue Oct 15 21:10:09.075 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 21:10:09.213 [initandlisten] waiting for connections on port 3333
+Tue Oct 15 21:10:10.266 [initandlisten] connection accepted from 127.0.0.1:56347 #1 (1 connection now open)
+Tue Oct 15 21:10:10.291 [initandlisten] connection accepted from 127.0.0.1:56348 #2 (2 connections now open)
+Tue Oct 15 21:10:10.301 [initandlisten] connection accepted from 127.0.0.1:56349 #3 (3 connections now open)
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 22:30:44.460 [initandlisten] MongoDB starting : pid=20229 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 22:30:44.460 [initandlisten] 
+Tue Oct 15 22:30:44.460 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 22:30:44.460 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 22:30:44.461 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 22:30:44.461 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 22:30:44.461 [initandlisten] 
+Tue Oct 15 22:30:44.461 [initandlisten] db version v2.4.6
+Tue Oct 15 22:30:44.461 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 22:30:44.461 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 22:30:44.461 [initandlisten] allocator: system
+Tue Oct 15 22:30:44.461 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 22:30:44.464 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /home/jhosan/knobas/data/db/mongodb/mongod.lock. Is a mongod instance already running?, terminating
+Tue Oct 15 22:30:44.464 dbexit: 
+Tue Oct 15 22:30:44.464 [initandlisten] shutdown: going to close listening sockets...
+Tue Oct 15 22:30:44.464 [initandlisten] shutdown: going to flush diaglog...
+Tue Oct 15 22:30:44.464 [initandlisten] shutdown: going to close sockets...
+Tue Oct 15 22:30:44.464 [initandlisten] shutdown: waiting for fs preallocator...
+Tue Oct 15 22:30:44.464 [initandlisten] shutdown: closing all files...
+Tue Oct 15 22:30:44.464 [initandlisten] closeAllFiles() finished
+Tue Oct 15 22:30:44.464 dbexit: really exiting now
+Tue Oct 15 22:30:45.617 [initandlisten] connection accepted from 127.0.0.1:56435 #4 (4 connections now open)
+Tue Oct 15 22:30:45.629 [initandlisten] connection accepted from 127.0.0.1:56436 #5 (5 connections now open)
+Tue Oct 15 22:30:45.635 [initandlisten] connection accepted from 127.0.0.1:56437 #6 (6 connections now open)
+Tue Oct 15 22:31:01.145 [conn4] end connection 127.0.0.1:56435 (5 connections now open)
+Tue Oct 15 22:31:02.152 [conn6] end connection 127.0.0.1:56437 (4 connections now open)
+Tue Oct 15 22:31:03.169 [conn5] end connection 127.0.0.1:56436 (3 connections now open)
+Tue Oct 15 22:31:04.552 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+Tue Oct 15 22:31:04.552 [signalProcessingThread] now exiting
+Tue Oct 15 22:31:04.552 dbexit: 
+Tue Oct 15 22:31:04.552 [signalProcessingThread] shutdown: going to close listening sockets...
+Tue Oct 15 22:31:04.552 [signalProcessingThread] closing listening socket: 7
+Tue Oct 15 22:31:04.552 [signalProcessingThread] closing listening socket: 8
+Tue Oct 15 22:31:04.552 [signalProcessingThread] removing socket file: /tmp/mongodb-3333.sock
+Tue Oct 15 22:31:04.553 [signalProcessingThread] shutdown: going to flush diaglog...
+Tue Oct 15 22:31:04.553 [signalProcessingThread] shutdown: going to close sockets...
+Tue Oct 15 22:31:04.553 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Tue Oct 15 22:31:04.553 [signalProcessingThread] shutdown: closing all files...
+Tue Oct 15 22:31:04.553 [signalProcessingThread] closeAllFiles() finished
+Tue Oct 15 22:31:04.553 [signalProcessingThread] shutdown: removing fs lock...
+Tue Oct 15 22:31:04.553 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Oct 15 22:31:38.456 [initandlisten] MongoDB starting : pid=20289 port=3333 dbpath=/home/jhosan/knobas/data/db/mongodb 32-bit host=aj
+Tue Oct 15 22:31:38.457 [initandlisten] 
+Tue Oct 15 22:31:38.457 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue Oct 15 22:31:38.457 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue Oct 15 22:31:38.457 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue Oct 15 22:31:38.457 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue Oct 15 22:31:38.457 [initandlisten] 
+Tue Oct 15 22:31:38.457 [initandlisten] db version v2.4.6
+Tue Oct 15 22:31:38.457 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Tue Oct 15 22:31:38.457 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue Oct 15 22:31:38.457 [initandlisten] allocator: system
+Tue Oct 15 22:31:38.457 [initandlisten] options: { bind_ip: "127.0.0.1", dbpath: "/home/jhosan/knobas/data/db/mongodb", fork: true, logappend: true, logpath: "/home/jhosan/knobas/data/logs/mongodb.log", nohttpinterface: true, pidfilepath: "/home/jhosan/knobas/data/pids/mongodb", port: 3333 }
+Tue Oct 15 22:31:38.561 [initandlisten] waiting for connections on port 3333
+Tue Oct 15 22:31:39.749 [initandlisten] connection accepted from 127.0.0.1:56441 #1 (1 connection now open)
+Tue Oct 15 22:31:39.750 [initandlisten] connection accepted from 127.0.0.1:56442 #2 (2 connections now open)
+Tue Oct 15 22:31:39.753 [initandlisten] connection accepted from 127.0.0.1:56443 #3 (3 connections now open)
+Tue Oct 15 22:31:43.648 [initandlisten] connection accepted from 127.0.0.1:56444 #4 (4 connections now open)
+Tue Oct 15 22:31:43.665 [conn4] dropDatabase knobas starting
+Tue Oct 15 22:31:43.730 [conn4] dropDatabase knobas finished
+Tue Oct 15 22:31:43.739 [conn4] end connection 127.0.0.1:56444 (3 connections now open)
+Tue Oct 15 22:31:44.061 [initandlisten] connection accepted from 127.0.0.1:56445 #5 (4 connections now open)
+Tue Oct 15 22:31:44.066 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 22:31:44.067 [FileAllocator] creating directory /home/jhosan/knobas/data/db/mongodb/_tmp
+Tue Oct 15 22:31:44.689 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.553 secs
+Tue Oct 15 22:31:44.690 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 22:31:45.200 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.51 secs
+Tue Oct 15 22:31:45.202 [conn5] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 22:31:45.203 [conn5] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 22:31:45.203 [conn5] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1137001 reslen:37 1137ms
+Tue Oct 15 22:31:45.211 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 22:31:45.216 [conn5] end connection 127.0.0.1:56445 (3 connections now open)
+Tue Oct 15 22:31:45.616 [initandlisten] connection accepted from 127.0.0.1:56446 #6 (4 connections now open)
+Tue Oct 15 22:31:45.641 [conn6] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 22:31:45.642 [conn6] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 22:31:45.646 [conn6] end connection 127.0.0.1:56446 (3 connections now open)
+Tue Oct 15 22:31:45.973 [initandlisten] connection accepted from 127.0.0.1:56447 #7 (4 connections now open)
+Tue Oct 15 22:31:46.104 [conn7] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 22:31:46.105 [conn7] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 22:31:46.111 [conn7] end connection 127.0.0.1:56447 (3 connections now open)
+Tue Oct 15 22:31:46.455 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.243 secs
+Tue Oct 15 22:46:25.017 [initandlisten] connection accepted from 127.0.0.1:56456 #8 (4 connections now open)
+Tue Oct 15 22:46:25.229 [conn8] end connection 127.0.0.1:56456 (3 connections now open)
+Tue Oct 15 22:47:48.296 [initandlisten] connection accepted from 127.0.0.1:56457 #9 (4 connections now open)
+Tue Oct 15 22:47:48.485 [conn9] end connection 127.0.0.1:56457 (3 connections now open)
+Tue Oct 15 22:52:10.440 [initandlisten] connection accepted from 127.0.0.1:56507 #10 (4 connections now open)
+Tue Oct 15 22:52:10.635 [conn10] end connection 127.0.0.1:56507 (3 connections now open)
+Tue Oct 15 22:52:35.277 [initandlisten] connection accepted from 127.0.0.1:56508 #11 (4 connections now open)
+Tue Oct 15 22:52:35.485 [conn11] end connection 127.0.0.1:56508 (3 connections now open)
+Tue Oct 15 22:53:08.757 [initandlisten] connection accepted from 127.0.0.1:56510 #12 (4 connections now open)
+Tue Oct 15 22:53:08.969 [conn12] end connection 127.0.0.1:56510 (3 connections now open)
+Tue Oct 15 22:55:00.925 [initandlisten] connection accepted from 127.0.0.1:56511 #13 (4 connections now open)
+Tue Oct 15 22:55:01.127 [conn13] end connection 127.0.0.1:56511 (3 connections now open)
+Tue Oct 15 22:55:54.814 [initandlisten] connection accepted from 127.0.0.1:56512 #14 (4 connections now open)
+Tue Oct 15 22:55:55.048 [conn14] end connection 127.0.0.1:56512 (3 connections now open)
+Tue Oct 15 22:56:14.229 [initandlisten] connection accepted from 127.0.0.1:56513 #15 (4 connections now open)
+Tue Oct 15 22:56:14.240 [conn15] dropDatabase knobas starting
+Tue Oct 15 22:56:14.309 [conn15] dropDatabase knobas finished
+Tue Oct 15 22:56:14.316 [conn15] end connection 127.0.0.1:56513 (3 connections now open)
+Tue Oct 15 22:56:14.603 [initandlisten] connection accepted from 127.0.0.1:56514 #16 (4 connections now open)
+Tue Oct 15 22:56:14.616 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 22:56:15.191 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.574 secs
+Tue Oct 15 22:56:15.191 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 22:56:15.684 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.493 secs
+Tue Oct 15 22:56:15.687 [conn16] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 22:56:15.688 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 22:56:15.695 [conn16] build index done.  scanned 0 total records. 0.007 secs
+Tue Oct 15 22:56:15.695 [conn16] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1079033 reslen:37 1079ms
+Tue Oct 15 22:56:15.704 [conn16] end connection 127.0.0.1:56514 (3 connections now open)
+Tue Oct 15 22:56:16.139 [initandlisten] connection accepted from 127.0.0.1:56515 #17 (4 connections now open)
+Tue Oct 15 22:56:16.169 [conn17] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 22:56:16.364 [conn17] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 22:56:16.364 [conn17] command knobas.$cmd command: { create: "memcache_keys" } ntoreturn:1 keyUpdates:0 locks(micros) w:196395 reslen:37 196ms
+Tue Oct 15 22:56:16.368 [conn17] end connection 127.0.0.1:56515 (3 connections now open)
+Tue Oct 15 22:56:16.677 [initandlisten] connection accepted from 127.0.0.1:56516 #18 (4 connections now open)
+Tue Oct 15 22:56:16.681 [conn18] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 22:56:16.682 [conn18] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 22:56:16.698 [conn18] end connection 127.0.0.1:56516 (3 connections now open)
+Tue Oct 15 22:56:16.955 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.266 secs
+Tue Oct 15 22:57:33.427 [initandlisten] connection accepted from 127.0.0.1:56517 #19 (4 connections now open)
+Tue Oct 15 22:57:33.636 [conn19] end connection 127.0.0.1:56517 (3 connections now open)
+Tue Oct 15 23:01:56.076 [initandlisten] connection accepted from 127.0.0.1:56547 #20 (4 connections now open)
+Tue Oct 15 23:01:56.092 [conn20] dropDatabase knobas starting
+Tue Oct 15 23:01:56.160 [conn20] dropDatabase knobas finished
+Tue Oct 15 23:01:56.168 [conn20] end connection 127.0.0.1:56547 (3 connections now open)
+Tue Oct 15 23:01:56.503 [initandlisten] connection accepted from 127.0.0.1:56548 #21 (4 connections now open)
+Tue Oct 15 23:01:56.512 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:01:57.211 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.698 secs
+Tue Oct 15 23:01:57.211 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:01:57.738 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.526 secs
+Tue Oct 15 23:01:57.740 [conn21] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:01:57.742 [conn21] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:01:57.742 [conn21] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1229927 reslen:37 1229ms
+Tue Oct 15 23:01:57.749 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:01:57.768 [conn21] end connection 127.0.0.1:56548 (3 connections now open)
+Tue Oct 15 23:01:58.188 [initandlisten] connection accepted from 127.0.0.1:56549 #22 (4 connections now open)
+Tue Oct 15 23:01:58.224 [conn22] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:01:58.597 [conn22] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:01:58.597 [conn22] command knobas.$cmd command: { create: "memcache_keys" } ntoreturn:1 keyUpdates:0 locks(micros) w:374929 reslen:37 374ms
+Tue Oct 15 23:01:58.600 [conn22] end connection 127.0.0.1:56549 (3 connections now open)
+Tue Oct 15 23:01:58.928 [initandlisten] connection accepted from 127.0.0.1:56550 #23 (4 connections now open)
+Tue Oct 15 23:01:58.945 [conn23] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:01:58.947 [conn23] build index done.  scanned 0 total records. 0.002 secs
+Tue Oct 15 23:01:58.949 [conn23] end connection 127.0.0.1:56550 (3 connections now open)
+Tue Oct 15 23:01:59.042 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.293 secs
+Tue Oct 15 23:02:06.217 [initandlisten] connection accepted from 127.0.0.1:56551 #24 (4 connections now open)
+Tue Oct 15 23:02:06.426 [conn24] end connection 127.0.0.1:56551 (3 connections now open)
+Tue Oct 15 23:04:28.733 [initandlisten] connection accepted from 127.0.0.1:56556 #25 (4 connections now open)
+Tue Oct 15 23:04:28.745 [conn25] dropDatabase knobas starting
+Tue Oct 15 23:04:28.821 [conn25] dropDatabase knobas finished
+Tue Oct 15 23:04:28.832 [conn25] end connection 127.0.0.1:56556 (3 connections now open)
+Tue Oct 15 23:04:29.148 [initandlisten] connection accepted from 127.0.0.1:56557 #26 (4 connections now open)
+Tue Oct 15 23:04:29.160 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:04:29.742 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.581 secs
+Tue Oct 15 23:04:29.743 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:04:30.454 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.711 secs
+Tue Oct 15 23:04:30.457 [conn26] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:04:30.458 [conn26] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:04:30.458 [conn26] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1297548 reslen:37 1297ms
+Tue Oct 15 23:04:30.464 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:04:30.488 [conn26] end connection 127.0.0.1:56557 (3 connections now open)
+Tue Oct 15 23:04:30.899 [initandlisten] connection accepted from 127.0.0.1:56558 #27 (4 connections now open)
+Tue Oct 15 23:04:30.907 [conn27] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:04:30.921 [conn27] build index done.  scanned 0 total records. 0.013 secs
+Tue Oct 15 23:04:30.936 [conn27] end connection 127.0.0.1:56558 (3 connections now open)
+Tue Oct 15 23:04:31.268 [initandlisten] connection accepted from 127.0.0.1:56559 #28 (4 connections now open)
+Tue Oct 15 23:04:31.355 [conn28] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:04:31.366 [conn28] build index done.  scanned 0 total records. 0.006 secs
+Tue Oct 15 23:04:31.367 [conn28] end connection 127.0.0.1:56559 (3 connections now open)
+Tue Oct 15 23:04:31.742 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.278 secs
+Tue Oct 15 23:04:34.548 [initandlisten] connection accepted from 127.0.0.1:56560 #29 (4 connections now open)
+Tue Oct 15 23:04:34.785 [conn29] end connection 127.0.0.1:56560 (3 connections now open)
+Tue Oct 15 23:08:47.557 [initandlisten] connection accepted from 127.0.0.1:56589 #30 (4 connections now open)
+Tue Oct 15 23:08:47.577 [conn30] dropDatabase knobas starting
+Tue Oct 15 23:08:47.637 [conn30] dropDatabase knobas finished
+Tue Oct 15 23:08:47.646 [conn30] end connection 127.0.0.1:56589 (3 connections now open)
+Tue Oct 15 23:08:47.913 [initandlisten] connection accepted from 127.0.0.1:56590 #31 (4 connections now open)
+Tue Oct 15 23:08:47.926 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:08:48.476 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.549 secs
+Tue Oct 15 23:08:48.476 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:08:49.011 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.534 secs
+Tue Oct 15 23:08:49.013 [conn31] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:08:49.014 [conn31] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:08:49.014 [conn31] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1088735 reslen:37 1088ms
+Tue Oct 15 23:08:49.024 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:08:49.035 [conn31] end connection 127.0.0.1:56590 (3 connections now open)
+Tue Oct 15 23:08:49.448 [initandlisten] connection accepted from 127.0.0.1:56591 #32 (4 connections now open)
+Tue Oct 15 23:08:49.467 [conn32] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:08:49.476 [conn32] build index done.  scanned 0 total records. 0.009 secs
+Tue Oct 15 23:08:49.496 [conn32] end connection 127.0.0.1:56591 (3 connections now open)
+Tue Oct 15 23:08:49.828 [initandlisten] connection accepted from 127.0.0.1:56592 #33 (4 connections now open)
+Tue Oct 15 23:08:49.961 [conn33] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:08:49.962 [conn33] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:08:49.964 [conn33] end connection 127.0.0.1:56592 (3 connections now open)
+Tue Oct 15 23:08:50.325 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.301 secs
+Tue Oct 15 23:08:55.036 [initandlisten] connection accepted from 127.0.0.1:56593 #34 (4 connections now open)
+Tue Oct 15 23:08:55.263 [conn34] end connection 127.0.0.1:56593 (3 connections now open)
+Tue Oct 15 23:09:35.056 [initandlisten] connection accepted from 127.0.0.1:56594 #35 (4 connections now open)
+Tue Oct 15 23:09:35.065 [conn35] dropDatabase knobas starting
+Tue Oct 15 23:09:35.137 [conn35] dropDatabase knobas finished
+Tue Oct 15 23:09:35.146 [conn35] end connection 127.0.0.1:56594 (3 connections now open)
+Tue Oct 15 23:09:35.476 [initandlisten] connection accepted from 127.0.0.1:56595 #36 (4 connections now open)
+Tue Oct 15 23:09:35.485 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:09:36.052 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.567 secs
+Tue Oct 15 23:09:36.052 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:09:36.579 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.526 secs
+Tue Oct 15 23:09:36.582 [conn36] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:09:36.583 [conn36] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:09:36.583 [conn36] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1098046 reslen:37 1098ms
+Tue Oct 15 23:09:36.588 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:09:36.591 [conn36] end connection 127.0.0.1:56595 (3 connections now open)
+Tue Oct 15 23:09:37.027 [initandlisten] connection accepted from 127.0.0.1:56596 #37 (4 connections now open)
+Tue Oct 15 23:09:37.041 [conn37] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:09:37.042 [conn37] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:09:37.060 [conn37] end connection 127.0.0.1:56596 (3 connections now open)
+Tue Oct 15 23:09:37.403 [initandlisten] connection accepted from 127.0.0.1:56597 #38 (4 connections now open)
+Tue Oct 15 23:09:37.408 [conn38] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:09:37.409 [conn38] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:09:37.414 [conn38] end connection 127.0.0.1:56597 (3 connections now open)
+Tue Oct 15 23:09:37.850 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.262 secs
+Tue Oct 15 23:09:39.756 [initandlisten] connection accepted from 127.0.0.1:56598 #39 (4 connections now open)
+Tue Oct 15 23:09:39.987 [conn39] end connection 127.0.0.1:56598 (3 connections now open)
+Tue Oct 15 23:14:06.472 [initandlisten] connection accepted from 127.0.0.1:56601 #40 (4 connections now open)
+Tue Oct 15 23:14:06.483 [conn40] dropDatabase knobas starting
+Tue Oct 15 23:14:06.557 [conn40] dropDatabase knobas finished
+Tue Oct 15 23:14:06.572 [conn40] end connection 127.0.0.1:56601 (3 connections now open)
+Tue Oct 15 23:14:06.842 [initandlisten] connection accepted from 127.0.0.1:56602 #41 (4 connections now open)
+Tue Oct 15 23:14:06.863 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:14:07.425 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.561 secs
+Tue Oct 15 23:14:07.425 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:14:07.944 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.518 secs
+Tue Oct 15 23:14:07.946 [conn41] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:14:07.947 [conn41] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:14:07.947 [conn41] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1084384 reslen:37 1084ms
+Tue Oct 15 23:14:07.955 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:14:07.960 [conn41] end connection 127.0.0.1:56602 (3 connections now open)
+Tue Oct 15 23:14:08.400 [initandlisten] connection accepted from 127.0.0.1:56603 #42 (4 connections now open)
+Tue Oct 15 23:14:08.428 [conn42] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:14:08.432 [conn42] build index done.  scanned 0 total records. 0.004 secs
+Tue Oct 15 23:14:08.441 [conn42] end connection 127.0.0.1:56603 (3 connections now open)
+Tue Oct 15 23:14:08.812 [initandlisten] connection accepted from 127.0.0.1:56604 #43 (4 connections now open)
+Tue Oct 15 23:14:08.871 [conn43] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:14:08.872 [conn43] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:14:08.876 [conn43] end connection 127.0.0.1:56604 (3 connections now open)
+Tue Oct 15 23:14:09.131 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.176 secs
+Tue Oct 15 23:14:11.942 [initandlisten] connection accepted from 127.0.0.1:56605 #44 (4 connections now open)
+Tue Oct 15 23:14:12.186 [conn44] end connection 127.0.0.1:56605 (3 connections now open)
+Tue Oct 15 23:14:41.219 [initandlisten] connection accepted from 127.0.0.1:56606 #45 (4 connections now open)
+Tue Oct 15 23:14:41.228 [conn45] dropDatabase knobas starting
+Tue Oct 15 23:14:41.297 [conn45] dropDatabase knobas finished
+Tue Oct 15 23:14:41.304 [conn45] end connection 127.0.0.1:56606 (3 connections now open)
+Tue Oct 15 23:14:41.614 [initandlisten] connection accepted from 127.0.0.1:56607 #46 (4 connections now open)
+Tue Oct 15 23:14:41.623 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:14:42.194 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.571 secs
+Tue Oct 15 23:14:42.195 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:14:42.711 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.516 secs
+Tue Oct 15 23:14:42.714 [conn46] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:14:42.715 [conn46] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:14:42.715 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:14:42.738 [conn46] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1091935 reslen:37 1115ms
+Tue Oct 15 23:14:42.746 [conn46] end connection 127.0.0.1:56607 (3 connections now open)
+Tue Oct 15 23:14:43.215 [initandlisten] connection accepted from 127.0.0.1:56608 #47 (4 connections now open)
+Tue Oct 15 23:14:43.221 [conn47] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:14:43.222 [conn47] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:14:43.232 [conn47] end connection 127.0.0.1:56608 (3 connections now open)
+Tue Oct 15 23:14:43.592 [initandlisten] connection accepted from 127.0.0.1:56609 #48 (4 connections now open)
+Tue Oct 15 23:14:43.604 [conn48] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:14:43.605 [conn48] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:14:43.616 [conn48] end connection 127.0.0.1:56609 (3 connections now open)
+Tue Oct 15 23:14:43.991 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.275 secs
+Tue Oct 15 23:15:38.078 [initandlisten] connection accepted from 127.0.0.1:56615 #49 (4 connections now open)
+Tue Oct 15 23:15:38.089 [conn49] dropDatabase knobas starting
+Tue Oct 15 23:15:38.166 [conn49] dropDatabase knobas finished
+Tue Oct 15 23:15:38.175 [conn49] end connection 127.0.0.1:56615 (3 connections now open)
+Tue Oct 15 23:15:38.478 [initandlisten] connection accepted from 127.0.0.1:56616 #50 (4 connections now open)
+Tue Oct 15 23:15:38.499 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:15:39.120 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.621 secs
+Tue Oct 15 23:15:39.121 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:15:39.631 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.51 secs
+Tue Oct 15 23:15:39.633 [conn50] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:15:39.634 [conn50] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:15:39.634 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:15:39.640 [conn50] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1135823 reslen:37 1141ms
+Tue Oct 15 23:15:39.647 [conn50] end connection 127.0.0.1:56616 (3 connections now open)
+Tue Oct 15 23:15:40.073 [initandlisten] connection accepted from 127.0.0.1:56617 #51 (4 connections now open)
+Tue Oct 15 23:15:40.089 [conn51] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:15:40.169 [conn51] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:15:40.176 [conn51] end connection 127.0.0.1:56617 (3 connections now open)
+Tue Oct 15 23:15:40.535 [initandlisten] connection accepted from 127.0.0.1:56618 #52 (4 connections now open)
+Tue Oct 15 23:15:40.548 [conn52] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:15:40.550 [conn52] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:15:40.558 [conn52] end connection 127.0.0.1:56618 (3 connections now open)
+Tue Oct 15 23:15:40.935 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.3 secs
+Tue Oct 15 23:15:43.181 [initandlisten] connection accepted from 127.0.0.1:56619 #53 (4 connections now open)
+Tue Oct 15 23:15:43.390 [conn53] end connection 127.0.0.1:56619 (3 connections now open)
+Tue Oct 15 23:16:51.398 [initandlisten] connection accepted from 127.0.0.1:56622 #54 (4 connections now open)
+Tue Oct 15 23:16:51.617 [conn54] end connection 127.0.0.1:56622 (3 connections now open)
+Tue Oct 15 23:17:20.000 [initandlisten] connection accepted from 127.0.0.1:56624 #55 (4 connections now open)
+Tue Oct 15 23:17:20.006 [conn55] dropDatabase knobas starting
+Tue Oct 15 23:17:20.079 [conn55] dropDatabase knobas finished
+Tue Oct 15 23:17:20.084 [conn55] end connection 127.0.0.1:56624 (3 connections now open)
+Tue Oct 15 23:17:20.421 [initandlisten] connection accepted from 127.0.0.1:56625 #56 (4 connections now open)
+Tue Oct 15 23:17:20.430 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:17:21.021 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.59 secs
+Tue Oct 15 23:17:21.021 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:17:21.565 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.544 secs
+Tue Oct 15 23:17:21.567 [conn56] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:17:21.568 [conn56] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:17:21.568 [conn56] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1138428 reslen:37 1138ms
+Tue Oct 15 23:17:21.577 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:17:21.587 [conn56] end connection 127.0.0.1:56625 (3 connections now open)
+Tue Oct 15 23:17:22.006 [initandlisten] connection accepted from 127.0.0.1:56626 #57 (4 connections now open)
+Tue Oct 15 23:17:22.021 [conn57] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:17:22.037 [conn57] build index done.  scanned 0 total records. 0.015 secs
+Tue Oct 15 23:17:22.045 [conn57] end connection 127.0.0.1:56626 (3 connections now open)
+Tue Oct 15 23:17:22.372 [initandlisten] connection accepted from 127.0.0.1:56627 #58 (4 connections now open)
+Tue Oct 15 23:17:22.494 [conn58] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:17:22.495 [conn58] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:17:22.501 [conn58] end connection 127.0.0.1:56627 (3 connections now open)
+Tue Oct 15 23:17:22.897 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.319 secs
+Tue Oct 15 23:17:24.936 [initandlisten] connection accepted from 127.0.0.1:56628 #59 (4 connections now open)
+Tue Oct 15 23:17:25.171 [conn59] end connection 127.0.0.1:56628 (3 connections now open)
+Tue Oct 15 23:22:00.300 [initandlisten] connection accepted from 127.0.0.1:56676 #60 (4 connections now open)
+Tue Oct 15 23:22:00.306 [conn60] dropDatabase knobas starting
+Tue Oct 15 23:22:00.378 [conn60] dropDatabase knobas finished
+Tue Oct 15 23:22:00.396 [conn60] end connection 127.0.0.1:56676 (3 connections now open)
+Tue Oct 15 23:22:00.702 [initandlisten] connection accepted from 127.0.0.1:56677 #61 (4 connections now open)
+Tue Oct 15 23:22:00.711 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:22:01.312 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.6 secs
+Tue Oct 15 23:22:01.312 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:22:01.847 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.535 secs
+Tue Oct 15 23:22:01.849 [conn61] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:22:01.850 [conn61] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:22:01.851 [conn61] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1139841 reslen:37 1139ms
+Tue Oct 15 23:22:01.856 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:22:01.874 [conn61] end connection 127.0.0.1:56677 (3 connections now open)
+Tue Oct 15 23:22:02.298 [initandlisten] connection accepted from 127.0.0.1:56678 #62 (4 connections now open)
+Tue Oct 15 23:22:02.319 [conn62] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:22:02.333 [conn62] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:22:02.342 [conn62] end connection 127.0.0.1:56678 (3 connections now open)
+Tue Oct 15 23:22:02.695 [initandlisten] connection accepted from 127.0.0.1:56679 #63 (4 connections now open)
+Tue Oct 15 23:22:02.816 [conn63] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:22:02.817 [conn63] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:22:02.825 [conn63] end connection 127.0.0.1:56679 (3 connections now open)
+Tue Oct 15 23:22:03.202 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.345 secs
+Tue Oct 15 23:22:05.636 [initandlisten] connection accepted from 127.0.0.1:56680 #64 (4 connections now open)
+Tue Oct 15 23:22:05.855 [conn64] end connection 127.0.0.1:56680 (3 connections now open)
+Tue Oct 15 23:22:22.507 [initandlisten] connection accepted from 127.0.0.1:56681 #65 (4 connections now open)
+Tue Oct 15 23:22:22.523 [conn65] dropDatabase knobas starting
+Tue Oct 15 23:22:22.592 [conn65] dropDatabase knobas finished
+Tue Oct 15 23:22:22.604 [conn65] end connection 127.0.0.1:56681 (3 connections now open)
+Tue Oct 15 23:22:22.911 [initandlisten] connection accepted from 127.0.0.1:56682 #66 (4 connections now open)
+Tue Oct 15 23:22:22.927 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:22:23.550 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.623 secs
+Tue Oct 15 23:22:23.550 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:22:24.087 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.536 secs
+Tue Oct 15 23:22:24.089 [conn66] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:22:24.090 [conn66] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:22:24.090 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:22:24.100 [conn66] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1163979 reslen:37 1173ms
+Tue Oct 15 23:22:24.106 [conn66] end connection 127.0.0.1:56682 (3 connections now open)
+Tue Oct 15 23:22:24.550 [initandlisten] connection accepted from 127.0.0.1:56683 #67 (4 connections now open)
+Tue Oct 15 23:22:24.592 [conn67] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:22:24.803 [conn67] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:22:24.803 [conn67] command knobas.$cmd command: { create: "memcache_keys" } ntoreturn:1 keyUpdates:0 locks(micros) w:216028 reslen:37 216ms
+Tue Oct 15 23:22:24.805 [conn67] end connection 127.0.0.1:56683 (3 connections now open)
+Tue Oct 15 23:22:25.139 [initandlisten] connection accepted from 127.0.0.1:56684 #68 (4 connections now open)
+Tue Oct 15 23:22:25.147 [conn68] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:22:25.148 [conn68] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:22:25.152 [conn68] end connection 127.0.0.1:56684 (3 connections now open)
+Tue Oct 15 23:22:25.358 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.267 secs
+Tue Oct 15 23:22:27.102 [initandlisten] connection accepted from 127.0.0.1:56685 #69 (4 connections now open)
+Tue Oct 15 23:22:27.110 [conn69] dropDatabase knobas starting
+Tue Oct 15 23:22:27.189 [conn69] dropDatabase knobas finished
+Tue Oct 15 23:22:27.208 [conn69] end connection 127.0.0.1:56685 (3 connections now open)
+Tue Oct 15 23:22:27.542 [initandlisten] connection accepted from 127.0.0.1:56686 #70 (4 connections now open)
+Tue Oct 15 23:22:27.552 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:22:28.151 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.599 secs
+Tue Oct 15 23:22:28.152 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:22:28.670 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.518 secs
+Tue Oct 15 23:22:28.673 [conn70] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:22:28.673 [conn70] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:22:28.674 [conn70] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1121854 reslen:37 1121ms
+Tue Oct 15 23:22:28.684 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:22:28.691 [conn70] end connection 127.0.0.1:56686 (3 connections now open)
+Tue Oct 15 23:22:29.130 [initandlisten] connection accepted from 127.0.0.1:56687 #71 (4 connections now open)
+Tue Oct 15 23:22:29.160 [conn71] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:22:29.171 [conn71] build index done.  scanned 0 total records. 0.01 secs
+Tue Oct 15 23:22:29.180 [conn71] end connection 127.0.0.1:56687 (3 connections now open)
+Tue Oct 15 23:22:29.539 [initandlisten] connection accepted from 127.0.0.1:56688 #72 (4 connections now open)
+Tue Oct 15 23:22:29.549 [conn72] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:22:29.550 [conn72] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:22:29.559 [conn72] end connection 127.0.0.1:56688 (3 connections now open)
+Tue Oct 15 23:22:29.968 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.284 secs
+Tue Oct 15 23:23:48.820 [initandlisten] connection accepted from 127.0.0.1:56689 #73 (4 connections now open)
+Tue Oct 15 23:23:49.047 [conn73] end connection 127.0.0.1:56689 (3 connections now open)
+Tue Oct 15 23:25:36.282 [initandlisten] connection accepted from 127.0.0.1:56714 #74 (4 connections now open)
+Tue Oct 15 23:25:36.294 [conn74] dropDatabase knobas starting
+Tue Oct 15 23:25:36.360 [conn74] dropDatabase knobas finished
+Tue Oct 15 23:25:36.366 [conn74] end connection 127.0.0.1:56714 (3 connections now open)
+Tue Oct 15 23:25:36.703 [initandlisten] connection accepted from 127.0.0.1:56715 #75 (4 connections now open)
+Tue Oct 15 23:25:36.712 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, filling with zeroes...
+Tue Oct 15 23:25:37.293 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.ns, size: 16MB,  took 0.581 secs
+Tue Oct 15 23:25:37.293 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, filling with zeroes...
+Tue Oct 15 23:25:37.820 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.0, size: 16MB,  took 0.526 secs
+Tue Oct 15 23:25:37.823 [conn75] build index knobas.worker_queue { _id: 1 }
+Tue Oct 15 23:25:37.824 [conn75] build index done.  scanned 0 total records. 0.001 secs
+Tue Oct 15 23:25:37.824 [conn75] command knobas.$cmd command: { create: "worker_queue" } ntoreturn:1 keyUpdates:0 locks(micros) w:1112971 reslen:37 1113ms
+Tue Oct 15 23:25:37.837 [FileAllocator] allocating new datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, filling with zeroes...
+Tue Oct 15 23:25:37.860 [conn75] end connection 127.0.0.1:56715 (3 connections now open)
+Tue Oct 15 23:25:38.257 [initandlisten] connection accepted from 127.0.0.1:56716 #76 (4 connections now open)
+Tue Oct 15 23:25:38.278 [conn76] build index knobas.memcache_keys { _id: 1 }
+Tue Oct 15 23:25:38.291 [conn76] build index done.  scanned 0 total records. 0.013 secs
+Tue Oct 15 23:25:38.457 [conn76] command knobas.$cmd command: { create: "memcache_keys" } ntoreturn:1 keyUpdates:0 locks(micros) w:185855 reslen:37 185ms
+Tue Oct 15 23:25:38.458 [conn76] end connection 127.0.0.1:56716 (3 connections now open)
+Tue Oct 15 23:25:38.812 [initandlisten] connection accepted from 127.0.0.1:56717 #77 (4 connections now open)
+Tue Oct 15 23:25:38.822 [conn77] build index knobas.worker_queue_log { _id: 1 }
+Tue Oct 15 23:25:38.823 [conn77] build index done.  scanned 0 total records. 0 secs
+Tue Oct 15 23:25:38.830 [conn77] end connection 127.0.0.1:56717 (3 connections now open)
+Tue Oct 15 23:25:38.993 [FileAllocator] done allocating datafile /home/jhosan/knobas/data/db/mongodb/knobas.1, size: 32MB,  took 1.155 secs
+Tue Oct 15 23:25:41.528 [initandlisten] connection accepted from 127.0.0.1:56718 #78 (4 connections now open)
+Tue Oct 15 23:25:41.612 [conn78] end connection 127.0.0.1:56718 (3 connections now open)
+Tue Oct 15 23:50:10.474 [initandlisten] connection accepted from 127.0.0.1:56750 #79 (4 connections now open)
+Tue Oct 15 23:50:20.499 [conn79] end connection 127.0.0.1:56750 (3 connections now open)
+Tue Oct 15 23:50:46.396 [initandlisten] connection accepted from 127.0.0.1:56753 #80 (4 connections now open)
+Tue Oct 15 23:54:11.348 [conn80] end connection 127.0.0.1:56753 (3 connections now open)
