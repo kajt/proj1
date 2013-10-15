@@ -1,3 +1,4 @@
 2013-09-01 19:42:37.245687 worker 1 started.2013-09-01 20:03:56.876246 worker 1 started.2013-09-01 20:04:17.664765 worker 1 stopped by SIGUSR1
 2013-09-01 20:19:35.345442 worker 1 started.2013-09-01 20:19:58.075557 worker 1 stopped by SIGUSR1
-2013-10-15 16:11:14.962140 worker 1 started.2013-10-15 16:58:40.847356 worker 1 started.
+2013-10-15 16:11:14.962140 worker 1 started.2013-10-15 16:58:40.847356 worker 1 started.2013-10-15 17:04:40.654548 worker 1 started.2013-10-15 17:14:00.497876 worker 1 stopped by SIGUSR1
+2013-10-15 17:35:23.617417 worker 1 started.2013-10-15 17:38:38.390989 worker 1 started.
